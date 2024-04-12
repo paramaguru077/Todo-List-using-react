@@ -1,0 +1,97 @@
+body{
+    background-color: hsl(0,0%,85%);
+}
+.to-do-list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    color: crimson;
+}
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.5 ease;
+
+}
+.add-button{
+    background-color: plum;
+    margin-left: 20px;
+    color: white;
+    transition: background-color 1s linear;
+}
+.add-button:hover{
+    background-color: lightpink;
+}
+.delete{
+    background-color: red;
+    margin-left: 20px;
+    color: white;
+    transition: background-color 1s linear;
+
+}
+.delete:hover{
+    background-color: rgba(209, 87, 87, 0.808);
+}
+
+.moveup{
+    background-color: khaki;
+    margin-left: 20px;
+    color: white;
+    transition: background-color 1s ease-in;
+
+}
+.moveup:hover{
+    background-color: rgb(231, 222, 139);
+}
+
+.movedown{
+    background-color: plum;
+    margin-left: 20px;
+    color: white;
+    transition: background-color 1s ease-in;
+
+}
+.movedown:hover{
+    background-color: lightpink;
+}
+
+input[type="text"]{
+    padding: 10px 20px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid hsl(0,0%,85%);
+
+}
+ol{
+    padding: 0;
+}
+
+ol li{
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(48, 11, 11);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: hsl(0,0%,97%);
+    border: 3px solid hsl(0,0%,85%);
+    border-radius: 5px;
+    display: flex;
+   align-items: center;
+}
+.text{
+    flex:1;
+}
+.delete,.moveup,.movedown{
+    font-size: 1.2rem;
+}
